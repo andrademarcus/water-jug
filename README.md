@@ -3,18 +3,25 @@
 Make a clone of this repository and install it in your development environment using the following command in your terminal.
 
 ```
-git clone https://github.com/marcusandrade816/waterjug-challenge
+git clone https://github.com/andrademarcus/water-jug
 ```
 
 After cloning the repository content, access the created directory and install the dependencies:
 
 ```
-cd waterjug-challenge
+cd waterjug
 npm install
 npm start
 ```
 
 The server will be running at address `http://localhost:3000`.
+
+
+## Run the unit tests
+
+```
+npm test
+```
 
 --- 
 
@@ -142,3 +149,5 @@ curl --location 'http://localhost:3000/api/waterjug/solve' \
     }
 }
 ````
+
+
